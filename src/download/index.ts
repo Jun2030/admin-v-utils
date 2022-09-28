@@ -2,9 +2,9 @@
  * @description: 下载文件并重命名
  * @param {string} url 下载地址
  * @param {string} filename 重命名后的文件名
- * @return {*}
+ * @return {void}
  */
-export const downloadFileRename = (url: string, filename: string) => {
+export const downloadFileRename = (url: string, filename: string): void => {
   function getBlob(url: string) {
     return new Promise((resolve): void => {
       const xhr = new XMLHttpRequest();

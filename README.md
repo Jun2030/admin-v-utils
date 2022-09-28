@@ -1,65 +1,46 @@
-# :sparkles:@2030/eslint-config
+# :sparkles:@2030/admin-v-utils
 
-## :fire:风格说明 
+> 针对Vue3版,适用管理端的通用工具方法
 
-- 强制使用单引号，分号
-- 自动修复eslint问题并格式化
-- 支持TypeScript, Vue, React
-- 类型检查同时支持json, yaml, markdown
-- import导入排序
-- 单行配置，迅速接入
+## :fire:依赖说明
+
+- `UtilCommon` 通用工具类
+- `UtilCrypto` 加/解密工具类
+- `UtilStorage` 存储工具类
+- `UtilDownload` 下载工具类
 
 ## :bulb:使用说明
 
 ### 1. 安装
 - `npm` 安装：
   ```bash
-  > npm i -D @2030/eslint-config
+  > npm i @2030/admin-v-utils
   ```
 - `yarn` 安装
   ```bash
-  > yarn add -D @2030/eslint-config
+  > yarn add @2030/admin-v-utils
   ```
 - `pnpm` 安装
   ```bash
-  > pnpm add -D @2030/eslint-config
+  > pnpm add @2030/admin-v-utils
   ```
 
-### 2. 配置 `.eslintrc`
+### 2. 使用
 
-```json
-{
-  "extends": "@2030"
-}
+```typeScript
+// 方式一：
+import { UtilCommon } from '@2030/admin-v-utils';
+UtilCommon.formatTimestamp(12132433444);
+
+// 方式二：
+import { formatTimestamp } from '@2030/admin-v-utils/common';
+formatTimestamp(12132433444)
 ```
-
-> 无需配置 `.eslintignore` ，除非内置的忽略文件配置不满足
-
-### 3. 添加脚本至 `package.json`
-
-代码示例:
-
-```json
-{
-  "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
-  }
-}
-```
-
-### 4. VS Code 编辑器自动修复配置
-
-创建 `.vscode/settings.json`
-
-```json
-{
-  "prettier.enable": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
-}
-```
+## :notebook: 详细清单
+- [x] [UtilCommon](https://github.com/Jun2030/admin-v-utils/tree/main/src/common)
+- [x] [UtilStorage](https://github.com/Jun2030/admin-v-utils/tree/main/src/storage)
+- [x] [UtilCrypto](https://github.com/Jun2030/admin-v-utils/tree/main/src/crypto)
+- [x] [UtilDownload](https://github.com/Jun2030/admin-v-utils/tree/main/src/download)
 
 ## :key:License
 

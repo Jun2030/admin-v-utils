@@ -8,7 +8,7 @@ interface FileParseInfo {
 /**
  * @description  :解析文件名、后缀名
  * @param         {string} url 文件路径
- * @return        {FileParseInfo}
+ * @return        {FileParseInfo} 文件名、后缀名
  */
 export const parseFileName = (url: string): FileParseInfo => {
   let pureName = '';

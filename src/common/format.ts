@@ -20,7 +20,7 @@ export const formatByte = (value: number): string => {
  * @description  :把秒转为时分秒格式
  * @param         {number} secondNumber 秒
  * @param         {string} split 链接字符
- * @return        {string} 00:03:35
+ * @return        {string} e.g. 00:03:35
  */
 export const formatSeconds = (secondNumber: number, split = ':'): string => {
   if (secondNumber === 0 || secondNumber < 0) return '00:00:00';
@@ -38,7 +38,7 @@ export const formatSeconds = (secondNumber: number, split = ':'): string => {
 /**
  * @description  :时间戳转时间格式
  * @param         {number} timestamp 时间戳（毫秒）
- * @return        {string} 2022-03-14 14:03:45
+ * @return        {string} e.g. 2022-03-14 14:03:45
  */
 export const formatTimestamp = (timestamp: number): string => {
   if (!timestamp) return '';

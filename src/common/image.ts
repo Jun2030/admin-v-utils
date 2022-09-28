@@ -2,7 +2,11 @@ interface ImageWH {
   width: number;
   height: number;
 }
-// 获取图片宽、高
+/**
+ * @description  :获取图片宽、高
+ * @param         {File} file 图片
+ * @return        {ImageWH} 图片宽高
+ */
 export const getImgWH = (file: File): ImageWH => {
   const imgWH: ImageWH = {
     width: 0,
