@@ -1,0 +1,16 @@
+{
+  "cSpell.words": [
+    "bumpp",
+    "commitlint",
+    "composables",
+    "demi",
+    "typecheck",
+    "unocss",
+    "unplugin"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120
+}

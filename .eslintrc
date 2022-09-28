@@ -1,0 +1,6 @@
+{
+  "extends": ["@2030"],
+  "globals": {
+    "defineOptions": true
+  }
+}

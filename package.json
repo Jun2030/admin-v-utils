@@ -1,0 +1,47 @@
+{
+  "name": "@2030/admin-v-utils",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "description": "ZiJun's common utils for admin projects",
+  "author": "Zi Jun <zijun2030@163.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Jun2030/admin-v-utils#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jun2030/admin-v-utils.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "main": "./src/index.ts",
+  "files": ["src"],
+  "engines": {
+    "node": ">=14",
+    "pnpm": ">=7"
+  },
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint . --fix",
+    "prepare": "husky install",
+    "release": "bumpp package.json --commit --push --tag"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "@2030/commitlint-config": "0.0.7",
+    "@2030/eslint-config": "^0.0.4",
+    "@commitlint/cli": "^17.1.2",
+    "@types/crypto-js": "^4.1.1",
+    "bumpp": "^8.2.1",
+    "husky": "^8.0.1",
+    "typescript": "^4.8.2",
+    "vite": "^3.1.3",
+    "vite-plugin-dts": "^1.5.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
