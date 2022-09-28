@@ -15,11 +15,11 @@
   ],
   "main": "./index.ts",
   "files": [
-    "src/common",
-    "src/crypto",
-    "src/storage",
-    "src/download",
-    "src/index.ts"
+    "common",
+    "crypto",
+    "storage",
+    "download",
+    "index.ts"
   ],
   "engines": {
     "node": ">=14",
