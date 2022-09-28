@@ -13,9 +13,9 @@
   "keywords": [
     "utils"
   ],
-  "main": "./src/index.ts",
+  "main": "./index.ts",
   "files": [
-    "src"
+    "src/*"
   ],
   "engines": {
     "node": ">=14",

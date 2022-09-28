@@ -37,10 +37,10 @@ import { formatTimestamp } from '@2030/admin-v-utils/common';
 formatTimestamp(12132433444)
 ```
 ## :notebook: 详细清单
-- [x] [UtilCommon](https://github.com/Jun2030/admin-v-utils/tree/main/src/common)
-- [x] [UtilStorage](https://github.com/Jun2030/admin-v-utils/tree/main/src/storage)
-- [x] [UtilCrypto](https://github.com/Jun2030/admin-v-utils/tree/main/src/crypto)
-- [x] [UtilDownload](https://github.com/Jun2030/admin-v-utils/tree/main/src/download)
+- [UtilCommon](https://github.com/Jun2030/admin-v-utils/tree/main/src/common)
+- [UtilStorage](https://github.com/Jun2030/admin-v-utils/tree/main/src/storage)
+- [UtilCrypto](https://github.com/Jun2030/admin-v-utils/tree/main/src/crypto)
+- [UtilDownload](https://github.com/Jun2030/admin-v-utils/tree/main/src/download)
 
 ## :key:License
 
