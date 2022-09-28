@@ -13,10 +13,9 @@ export default defineConfig({
   plugins: [Dts()],
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/index.ts'),
+      entry: resolve(__dirname, 'index.ts'),
       name: 'AdminVUtils',
       fileName: 'index',
-      formats: ['es'],
     },
     minify: true,
   },
