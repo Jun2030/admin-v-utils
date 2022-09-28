@@ -14,9 +14,7 @@
     "utils"
   ],
   "main": "./index.ts",
-  "files": [
-    "src/**/*"
-  ],
+  "files": ["src/common", "src/crypto", "src/storage", "src/download", "src/index.ts"],
   "engines": {
     "node": ">=14",
     "pnpm": ">=7"
