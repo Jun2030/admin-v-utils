@@ -15,7 +15,7 @@
   ],
   "main": "./index.ts",
   "files": [
-    "src/*"
+    "src/"
   ],
   "engines": {
     "node": ">=14",
